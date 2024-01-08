@@ -1,36 +1,37 @@
 body{
     text-align:  left;
     box-sizing: border-box;
+    background-image:  url('fundo.png');
+    background-repeat: repeat;
+    background-size: auto;
+    font: 16px Arial,Helvetica, sans-serif;
+
 
 }
-
-
-.fundo {
-background-image: url('fundo.png');
-background-repeat: repeat;
-background-size: auto;
-
+#principal {
+    width:900px;
 }
+
 .capa {
     background-size: cover;
-    width: 100%;
+    
 }
 .post {
     background: #FBF9E6;
-    width: 888px;
-    height: 100%;
     text-align: left;
     padding-left: 10px;
 
 }
 .lista {
-    width: 840px;
+    
     background: #F0EBD3;
     display: flex; 
     justify-content:left;
-    padding: 30px;
+    padding: 20px;
     text-transform: uppercase; 
     list-style: none;
+    font-weight: bold;
+
 
 
 }
@@ -40,8 +41,7 @@ background-size: auto;
     
 }
 .lista .lista-link {
-    color: #1E1353;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4b566a;
     text-decoration: dotted;
     transition: .5s;
     font-size: 17px;
@@ -56,14 +56,12 @@ background-size: auto;
 
 }
 .titulo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
     color: #9B9679;
     padding-top: 5px;
 }
 .texto {
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 .destaque {
@@ -78,6 +76,5 @@ background-size: auto;
     text-align: center;
     font-weight: 750;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    left: -25%; 
+
 }
