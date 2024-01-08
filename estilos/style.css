@@ -1,46 +1,51 @@
-body{
-    text-align:  left;
+body {
+    text-align: left;
     box-sizing: border-box;
-    background-image:  url('fundo.png');
+    background-image: url('stylefundo.png');
     background-repeat: repeat;
     background-size: auto;
-    font: 16px Arial,Helvetica, sans-serif;
+    font: 16px Arial, Helvetica, sans-serif;
 
 
 }
+
 #principal {
-    width:900px;
+    width: 900px;
 }
 
-.capa {
+#capa {
     background-size: cover;
-    
+
 }
-.post {
+
+#post {
     background: #FBF9E6;
     text-align: left;
     padding-left: 10px;
 
 }
-.lista {
-    
+
+#lista {
+
     background: #F0EBD3;
-    display: flex; 
-    justify-content:left;
+    display: flex;
+    justify-content: left;
     padding: 20px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     list-style: none;
     font-weight: bold;
 
 
 
 }
-.lista li {
+
+#lista li {
     margin: 0 5px;
     padding: 3px;
-    
+
 }
-.lista .lista-link {
+
+#lista .lista-link {
     color: #4b566a;
     text-decoration: dotted;
     transition: .5s;
@@ -52,27 +57,31 @@ body{
 
 .imagem {
     background-repeat: repeat;
-    background-attachment:  scroll;
-
+    
 }
-.titulo {
+
+h2 {
     font-size: 19px;
     color: #9B9679;
-    padding-top: 5px;
+    padding-top:5px;
 }
+
 .texto {
     font-weight: 500;
     position: relative;
 }
+
 .destaque {
     font-weight: 700;
 }
+
 .borda {
     border-style: solid;
     border-width: 10px;
     border-color: #D9D6C0;
 }
-.rodape{
+
+#rodape {
     text-align: center;
     font-weight: 750;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
